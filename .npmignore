@@ -1,0 +1,7 @@
+.*
+*.log
+node_modules
+test
+docs
+index.ios.js
+iOS

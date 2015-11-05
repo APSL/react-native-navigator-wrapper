@@ -1,0 +1,35 @@
+{
+  "name": "react-native-navigator-wrapper",
+  "version": "0.0.1",
+  "description": "A React Native Navigator component wrapper that implements nested navigators for both push and modal transitions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APSL/react-native-navigator-wrapper.git"
+  },
+  "keywords": [
+    "ios",
+    "react",
+    "react-native",
+    "react-component",
+    "navigator"
+  ],
+  "author": "Alvaro Medina Ballester <me@alvaromb.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/APSL/react-native-navigator-wrapper/issues"
+  },
+  "homepage": "https://github.com/APSL/react-native-navigator-wrapper#readme",
+  "devDependencies": {
+    "babel-eslint": "^4.1.4",
+    "eslint": "^1.8.0",
+    "eslint-plugin-react": "^3.7.1"
+  },
+  "dependencies": {
+    "react-native": ">=0.12.0",
+    "react-native-vector-icons": "^0.8.4"
+  }
+}
