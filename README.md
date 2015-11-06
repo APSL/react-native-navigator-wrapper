@@ -58,7 +58,7 @@ inside it:
 
 ```js
 import React from 'react-native'
-import TopNavigatorWrapper from 'react-native-navigator-wrapper'
+import { TopNavigatorWrapper } from 'react-native-navigator-wrapper'
 import MyComponent from './MyComponent'
 
 class MyApp extends React.Component {
@@ -83,7 +83,7 @@ If you just want to use the navigation bar inside a navigator, use the
 
 ```js
 import React from 'react-native'
-import NavigationWrapper from 'react-native-navigator-wrapper'
+import { NavigationWrapper } from 'react-native-navigator-wrapper'
 
 class MyComponent extends React.Component {
   render () {
@@ -91,7 +91,6 @@ class MyComponent extends React.Component {
       <NavigationWrapper
         initialComponent={Component}
         title='Title'
-        passProps={}
       />
     )
   }
@@ -101,6 +100,17 @@ class MyComponent extends React.Component {
 Every time you push a component that's inside the ``NavigationWrapper`` component
 you will have a **navigator** prop, just like the top navigation option before,
 that will let you to keep pushing components in the stack.
+
+### Custom ``routeMapper``
+The React Native ``Navigator.NavigatorBar`` component has an object called
+``routeMapper`` that configures the three components that can be displayed
+inside the navigation bar: ``LeftButton``, ``RightButton`` and ``Title``.
+This library auto-generates a default route mapper object that displays an iOS
+style back button, a title and accepts a right element to render.
+
+It also provides functions to generate each of the route mapper components so
+you can build a completely custom navigation bar for each ``NavigatorWrapper``.
+See the source code for more information.
 
 ## License
 MIT.

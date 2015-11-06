@@ -1,6 +1,6 @@
 {
   "name": "react-native-navigator-wrapper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A React Native Navigator component wrapper that implements nested navigators for both push and modal transitions.",
   "main": "index.js",
   "scripts": {
