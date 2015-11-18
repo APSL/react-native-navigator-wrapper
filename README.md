@@ -77,18 +77,18 @@ You component ``MyComponent`` will have two props, **navigator** and
 **topNavigator**. They will let you to push new components from right using
 the first one or open a modal pushing from the second one.
 
-### Navigation with ``NavigationWrapper``
+### Navigation with ``NavigatorWrapper``
 If you just want to use the navigation bar inside a navigator, use the
-``NavigationWrapper`` component:
+``NavigatorWrapper`` component:
 
 ```js
 import React from 'react-native'
-import { NavigationWrapper } from 'react-native-navigator-wrapper'
+import { NavigatorWrapper } from 'react-native-navigator-wrapper'
 
 class MyComponent extends React.Component {
   render () {
     return (
-      <NavigationWrapper
+      <NavigatorWrapper
         initialComponent={Component}
         title='Title'
       />
@@ -97,7 +97,7 @@ class MyComponent extends React.Component {
 }
 ```
 
-Every time you push a component that's inside the ``NavigationWrapper`` component
+Every time you push a component that's inside the ``NavigatorWrapper`` component
 you will have a **navigator** prop, just like the top navigation option before,
 that will let you to keep pushing components in the stack.
 
