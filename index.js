@@ -4,7 +4,7 @@ import NavigatorWrapper from './lib/NavigatorWrapper'
 import TopNavigatorWrapper from './lib/TopNavigatorWrapper'
 import { defaultRouteMapper, leftButtonRouteMapperGenerator, rightButtonRouteMapperGenerator, titleRouteMapperGenerator } from './lib/RouteMapper'
 
-export default {
+export {
   NavBarBackButton,
   NavBar,
   NavigatorWrapper,
