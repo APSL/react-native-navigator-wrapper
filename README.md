@@ -65,8 +65,10 @@ class MyApp extends React.Component {
   render () {
     return (
       <TopNavigatorWrapper
-        initialComponent={MyComponent}
-        title='My App'
+        initialRoute={{
+          component: MyComponent,
+          title='Title'
+        }}
       />
     )
   }
@@ -89,8 +91,10 @@ class MyComponent extends React.Component {
   render () {
     return (
       <NavigatorWrapper
-        initialComponent={Component}
-        title='Title'
+        initialRoute={{
+          component: Component,
+          title='Title'
+        }}
       />
     )
   }
