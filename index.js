@@ -1,3 +1,5 @@
+/* @flow */
+
 import NavBarBackButton from './lib/NavBarBackButton'
 import NavBar from './lib/NavBar'
 import NavigatorWrapper from './lib/NavigatorWrapper'
