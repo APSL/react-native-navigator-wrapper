@@ -94,7 +94,7 @@ class MyComponent extends React.Component {
       <NavigatorWrapper
         initialRoute={{
           component: Component,
-          title='Title'
+          title: 'Title'
         }}
       />
     )
