@@ -1,13 +1,14 @@
 # react-native-navigator-wrapper
+
 A React Native Navigator component wrapper that implements nested navigators for
 both push and modal transitions.
+
+## ⚠️ DEPRECATED ⚠️
+This component has been deprecated. Use it at your own risk.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/wiki/APSL/react-native-navigator-wrapper/nav.gif" alt="Wrapper example" width="400">
 </p>
-
-## Disclaimer
-This component uses the JS `Navigator` implementation of React Native. Future versions of the component will use the actual `NavigatorExperimental`.
 
 ## Installation
 You can install this component through ``npm``:
